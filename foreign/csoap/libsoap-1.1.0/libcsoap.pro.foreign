@@ -32,7 +32,7 @@ INCLUDEPATH        += nanohttp
 INCLUDEPATH        += libcsoap
 win32:INCLUDEPATH  += win32/include
 win32:INCLUDEPATH  += ..\..\libxml2\include
-#unix:INCLUDEPATH   += /usr/include/libxml2/include
+unix:INCLUDEPATH   += /usr/include/libxml2
 
 TARGET = soap
 
