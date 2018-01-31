@@ -11,7 +11,7 @@ CONFIG  -= qt
 SOURCES += opcxmlda_client.cpp
 
 !macx {
-unix:LIBS         += -lpthread
+
 unix:LIBS         += ../../../foreign/csoap/libsoap-1.1.0/libsoap.a
 #unix:LIBS         += ../../../foreign/csoap/libsoap-1.1.0/libcsoap/.libs/libcsoap.a
 #unix:LIBS         += ../../../foreign/csoap/libsoap-1.1.0/nanohttp/.libs/libnanohttp.a
@@ -22,6 +22,7 @@ unix:INCLUDEPATH  += ../../../foreign/csoap/libsoap-1.1.0/libcsoap
 unix:INCLUDEPATH  += ../../../foreign/csoap/libsoap-1.1.0/nanohttp
 unix:LIBS         += /usr/lib/librllib.so
 unix:INCLUDEPATH  += /opt/pvb/rllib/lib
+unix:LIBS         += -lpthread
 }
 
 macx:LIBS         += /opt/pvb/pvserver/libpvsmt.a /usr/lib/libpthread.dylib
