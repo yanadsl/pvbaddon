@@ -16,7 +16,7 @@ SOURCES += main.cpp     \
 !macx {
 unix:LIBS          += /usr/lib/libpvsmt.so -lpthread /usr/lib64/libpython2.7.so
 #unix:LIBS         += /usr/lib/libpvsid.so
-unix:INCLUDEPATH   += /opt/pvb/pvserver /usr/include/python
+unix:INCLUDEPATH   += /opt/pvb/pvserver /usr/include/python2.7
 unix:LIBS          += /usr/lib/librllib.so
 unix:INCLUDEPATH   += /opt/pvb/rllib/lib
 }
