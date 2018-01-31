@@ -22,7 +22,7 @@ unix:INCLUDEPATH  += ../libpvcairo
 unix:LIBS         += ../libpvcairo/libpvcairo.a
 unix:INCLUDEPATH  += /usr/include/cairo
 unix:LIBS         += /usr/lib64/libcairo.so
-unix:LIBS         +- -lpthread
+unix:LIBS         += -lpthread
 }
 
 macx:LIBS         += /opt/pvb/pvserver/libpvsmt.a /usr/lib/libpthread.dylib
