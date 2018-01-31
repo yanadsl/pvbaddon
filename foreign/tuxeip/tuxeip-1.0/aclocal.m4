@@ -6390,7 +6390,7 @@ AC_MSG_RESULT([$SED])
 # ----------------------------
 # Automake X.Y traces this macro to ensure aclocal.m4 has been
 # generated from the m4 files accompanying Automake X.Y.
-AC_DEFUN([AM_AUTOMAKE_VERSION], [am__api_version="1.9"])
+AC_DEFUN([AM_AUTOMAKE_VERSION], [am__api_version="1.15"])
 
 # AM_SET_CURRENT_AUTOMAKE_VERSION
 # -------------------------------
