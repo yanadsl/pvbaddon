@@ -24,8 +24,8 @@
 #ifndef cSOAP_XML_H
 #define cSOAP_XML_H
 
-#include <libxml2/libxml/xpath.h>
-#include <libxml2/libxml/xpathInternals.h>
+#include <libxml/xpath.h>
+#include <libxml/xpathInternals.h>
 
 #include <nanohttp/nanohttp-common.h>
 

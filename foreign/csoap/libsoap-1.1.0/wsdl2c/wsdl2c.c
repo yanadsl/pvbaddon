@@ -21,7 +21,7 @@
  * 
  * Email: ayaz@jprogrammer.net
  */
-#include <libxml2/libxml/xpath.h>
+#include <libxml/xpath.h>
 #include <xsd2c/xsd2c.h>
 #include <xsd2c/util.h> /* parseNS */
 #include <xsd2c/formatter.h> /* formatter sax serializer */
